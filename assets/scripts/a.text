@@ -1,1 +1,14 @@
  Diretório para scripts PHP específicos, como processamento de formulários e uploads.
+
+
+
+
+
+Segundo Passo: Migrar para PHP
+
+1 - Quando estiver pronto para processar os dados, você pode simplesmente renomear o arquivo 
+de cadastro.html para cadastro.php e adicionar a lógica em PHP para capturar e processar os dados 
+enviados pelo formulário.
+
+2 -  Além disso, no atributo action do formulário, você pode alterar o valor para enviar os dados para o
+mesmo arquivo (ou outro que fará o processamento), como cadastro.php.

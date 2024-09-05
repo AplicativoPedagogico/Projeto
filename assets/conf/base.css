@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+:root{
+    --azulMain: "#3498db";
+}
+
 *{
     padding: 0px;
     margin: 0px;
