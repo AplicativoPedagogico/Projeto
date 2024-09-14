@@ -1,0 +1,77 @@
+@import url("../conf/base.css");
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    background-color: #EEE;
+    border-radius: 20px;
+    padding: 20px;
+    width: 80%;
+}
+
+.container .titulo{
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: aqua;
+    border-top: 2px solid aquamarine;
+    border-bottom: 2px solid aquamarine;
+    padding: 10px;
+    font-weight: bolder;
+}
+
+.container .aluno{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+/* FOTO ALUNO */
+
+.container .aluno .img-area{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: yellow;
+}
+
+/* INFORMAÇÔES DO ALUNO */
+
+.container .aluno .infos-area{
+    padding: 10px;
+}
+
+.aluno .infos-area > p{
+    font-size: 17px;
+    font-weight: bolder;
+    margin: 6px 0px;
+}
+
+/* PRÓXIMO ALUNO */
+
+.aluno .proxAluno{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.aluno .proxAluno #proximo-botao{
+    background-color: #3498db; /* Aplicar a cor como variavel */
+    color: white;
+    padding: 10px 5px;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 18px;
+}
+
+.aluno .proxAluno #maisInfos-botao{
+    text-decoration: none;
+    padding: 10px 5px;
+
+}
