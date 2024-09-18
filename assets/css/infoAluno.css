@@ -76,7 +76,7 @@ body {
 .aluno .proxAluno #maisInfos-botao {
     text-decoration: none;
     padding: 10px 5px;
-
+    text-align: center;
 }
 
 
@@ -87,7 +87,6 @@ body {
 @media(width <=694px) {
     .container .titulo {
         font-size: 16px;
-        color: red;
     }
 
     .aluno .infos-area>p {
@@ -97,14 +96,14 @@ body {
 
 }
 
-@media(width <= 496px){
-    .container .titulo {
-        font-size: 14px;
-        color: red;
+    
+    @media(width <=496px) {
+        .container .titulo {
+            font-size: 14px;
+        }
+        
+        .aluno .infos-area>p {
+            text-align: center;
+            font-size: 15px;
+        }
     }
-
-    .aluno .infos-area>p {
-        text-align: center;
-        font-size: 15px;
-    }
-}
