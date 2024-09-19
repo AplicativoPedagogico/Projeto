@@ -62,15 +62,18 @@ body {
     padding: 10px;
 }
 
-.aluno .proxAluno #proximo-botao {
+.botao-padrao{
+    text-decoration: none;
     background-color: #3498db;
-    /* Aplicar a cor como variavel */
     color: white;
     padding: 10px 5px;
-    text-decoration: none;
+    border-radius: 5px;
+}
+
+.aluno .proxAluno #proximo-botao{
+    /* Aplicar a cor como variavel */
     margin: 10px;
     font-size: 16px;
-    border-radius: 5px;
 }
 
 .aluno .proxAluno #maisInfos-botao {
@@ -165,6 +168,21 @@ td {
 .laudosMedicos{
     text-align: center;
     margin-top: 25px;
+}
+
+.laudosMedicos .todosLaudos{
+    height: 100px;
+    margin-bottom: 20px;
+    border-radius: 10px; /*TEMPORARIO*/
+    background-color: #ccc; /*TEMPORARIO*/
+}
+
+.laudosMedicos .maisBotoes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
 }
 
 
