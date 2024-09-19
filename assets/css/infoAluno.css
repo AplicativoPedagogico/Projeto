@@ -70,13 +70,62 @@ body {
     padding: 10px 5px;
     text-decoration: none;
     margin: 10px;
-    font-size: 18px;
+    font-size: 16px;
+    border-radius: 5px;
 }
 
 .aluno .proxAluno #maisInfos-botao {
-    text-decoration: none;
     padding: 10px 5px;
     text-align: center;
+    color: blue;
+    text-decoration: none;
+}
+
+
+/* PARTE 2 - Faltas do Aluno */
+
+.faltasAluno{
+    text-align: center;
+}
+
+.faltasAluno .titulo2{
+    background-color: gray;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    display: inline-block;
+}
+
+
+.faltasAluno .container-grid{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #CCC;
+    border-radius: 10px;
+}
+
+.grupo-materia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: .1px solid black;
+    background-color: #EEE;
+    padding: 10px;
+    margin: 2px;
+}
+
+
+.faltasAluno a{
+    color: blue;
+    text-decoration: none;
+    margin-top: 10px 5px;
 }
 
 
