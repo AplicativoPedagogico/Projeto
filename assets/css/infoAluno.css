@@ -84,11 +84,11 @@ body {
 
 /* PARTE 2 - Faltas do Aluno */
 
-.faltasAluno{
+.faltasAluno {
     text-align: center;
 }
 
-.faltasAluno .titulo2{
+.titulo2 {
     background-color: gray;
     padding: 10px;
     border-top-left-radius: 10px;
@@ -101,7 +101,7 @@ body {
 }
 
 
-.faltasAluno .container-grid{
+.faltasAluno .container-grid {
     flex-wrap: wrap;
     display: flex;
     justify-content: center;
@@ -111,7 +111,7 @@ body {
     border-radius: 10px;
 }
 
-.grupo-materia{
+.grupo-materia {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -122,14 +122,50 @@ body {
 }
 
 
-.faltasAluno a{
-    color: blue;
-    text-decoration: none;
-    margin-top: 10px 5px;
+
+/* PARTE 3 - Ocorrência disciplinar do aluno */
+
+.ocorrencia-disciplinar{
+    width: 100%;
+    overflow-x: auto;
+    text-align: center;
+}
+
+.ocorrencia-disciplinar table{
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    min-width: 600px; 
+    text-align: center;
+}
+
+
+th, td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+}
+
+/* Estilizando para telas menores */
+@media (max-width: 600px) {
+    th, td {
+        font-size: 14px;
+        padding: 10px;
+    }
 }
 
 
 
+/* O HTML DO CÓDIGO ABAIXO ESTÁ EM > ocorrencia-disciplinar & faltasAluno */
+
+.todasInfors{
+    text-align: right;
+    padding: 10px;
+}
+
+.todasInfors a {
+    color: blue;
+    text-decoration: none;
+}
 
 /* RESPONSIVIDADE (TABLET) */
 
@@ -143,16 +179,23 @@ body {
         font-size: 17px;
     }
 
+    /* AJEITAR */
+
+    .container .aluno .img-area {
+        width: 100px;
+        height: 100px;
+    } 
+
 }
 
-    
-    @media(width <=496px) {
-        .container .titulo {
-            font-size: 14px;
-        }
-        
-        .aluno .infos-area>p {
-            text-align: center;
-            font-size: 15px;
-        }
+
+@media(width <=496px) {
+    .container .titulo {
+        font-size: 14px;
     }
+
+    .aluno .infos-area>p {
+        text-align: center;
+        font-size: 15px;
+    }
+}
