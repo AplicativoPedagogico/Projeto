@@ -124,39 +124,31 @@ body {
 
 /* PARTE 3 - Ocorrência disciplinar do aluno */
 
-.ocorrencia-disciplinar{
+.ocorrenciaDisciplinar {
     width: 100%;
     overflow-x: auto;
     text-align: center;
 }
 
-.ocorrencia-disciplinar table{
+.ocorrenciaDisciplinar table {
     width: 100%;
     border-collapse: collapse;
     text-align: left;
-    min-width: 600px; 
+    min-width: 600px;
     text-align: center;
 }
 
 
-th, td {
+th,
+td {
     padding: 12px 15px;
     border: 1px solid #ddd;
 }
 
-/* Estilizando para telas menores */
-@media (max-width: 600px) {
-    th, td {
-        font-size: 14px;
-        padding: 10px;
-    }
-}
 
+/* O HTML DO CÓDIGO ABAIXO ESTÁ EM > ocorrencaDisciplinar & faltasAluno */
 
-
-/* O HTML DO CÓDIGO ABAIXO ESTÁ EM > ocorrencia-disciplinar & faltasAluno */
-
-.todasInfors{
+.todasInfors {
     text-align: right;
     padding: 10px;
 }
@@ -165,6 +157,20 @@ th, td {
     color: blue;
     text-decoration: none;
 }
+
+
+
+/* PARTE 4 - Laudos e informações médicas */
+
+.laudosMedicos{
+    text-align: center;
+    margin-top: 25px;
+}
+
+
+
+
+
 
 /* RESPONSIVIDADE (TABLET) */
 
@@ -178,15 +184,19 @@ th, td {
         font-size: 17px;
     }
 
-    /* AJEITAR */
-
     .container .aluno .img-area {
         width: 100px;
         height: 100px;
-    } 
+    }
+
+
+    .ocorrenciaDisciplinar table th,
+    td {
+        font-size: 14px;
+        padding: 10px;
+    }
 
 }
-
 
 @media(width <=496px) {
     .container .titulo {
