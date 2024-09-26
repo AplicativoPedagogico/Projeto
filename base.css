@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+:root{
+    --azulFundo: #abc7e7; 
+    --branco: #fff;
+    --azulPadrao: #4a90e2;
+}
+
+body{
+    background-color: var(--azulFundo);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+

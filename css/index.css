@@ -1,0 +1,121 @@
+@import url('../base.css');
+
+/* Reset de margens e paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fonte padrão */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    background-color: white;
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    margin: auto;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.container #img_logo{
+    width: 150px;
+    height: auto;
+    border-radius: 20px;
+    margin: auto;
+    display: block;
+}
+
+/* Cabeçalho */
+h1 {
+    color: #4a90e2;
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+    font-size: 14px;
+}
+
+/* Estilo dos formulários */
+form {
+    background: var(--branco);
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 300px; /* Largura do formulário */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+input[type="file"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Estilo específico para o campo de senha */
+input[type="password"] {
+    border: 1px solid #ccc;
+}
+
+/* Estilo do botão */
+button {
+    background-color: var(--azulPadrao);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    display: block;
+    margin: auto;
+    width: 60%;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: var(--azulPadrao);
+}
+
+
+/* Estilo dos links */
+a {
+    color: var(--azulPadrao);
+    text-decoration: none;
+    transition: color 0.3s;
+    display: block;
+    text-align: center;
+}
+
+a:hover {
+    color: var(--azulPadrao);
+}
+
+/* Mensagens de erro */
+.error {
+    color: red;
+    text-align: center;
+    margin: 10px 0;
+    font-weight: bold;
+    background-color: #ffe6e6; /* Fundo suave para mensagens de erro */
+    border: 1px solid red; /* Borda vermelha */
+    padding: 10px; /* Espaçamento interno */
+    border-radius: 4px; /* Bordas arredondadas */
+}
