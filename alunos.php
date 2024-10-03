@@ -74,7 +74,7 @@ $turmas = $stmt->fetchAll();
     </div>
     
 
-    <form action="alunos.php" method="POST" enctype="multipart/form-data">
+    <form action="alunos.php" method="POST" enctype="multipart/form-data"  autocomplete="off">
         <h2 id="txt-cadastrar">Cadastrar Aluno</h2>
         Nome: <input type="text" name="nome" required><br>
         Idade: <input type="number" name="idade" required><br>
